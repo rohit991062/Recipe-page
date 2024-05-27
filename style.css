@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Reset some default browser styles */
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(30, 54%, 90%);
+}
+
+/* Main container */
+.main {
+	background: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 1px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "Young Serif";
+    font-style: normal;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Young Serif";
+    font-style: normal;
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 15px;
+}
+
+/* List styling */
+ul, ol {
+    margin-bottom: 15px;
+}
+
+li {
+	display: inline-block flex;
+    margin-bottom: 5px;
+}
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    border: collapse;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.values {
+    color: hsl(332, 51%, 32%);
+}
+
+/* Miscellaneous */
+.preparation-time {
+    padding: 5px;
+    background: #fdf2f8;
+}
+
+hr {
+    margin: 20px 0;
+}
